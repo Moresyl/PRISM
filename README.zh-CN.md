@@ -10,6 +10,20 @@
 
 > 本仓库只发布 PRISM 的 Windows 安装包和版本说明，不包含源代码。
 
+## 界面截图
+
+**硬件信息与实时监控**
+
+![硬件信息与实时监控](inventory.webp)
+
+**游戏内性能浮窗设置**
+
+![游戏内性能浮窗设置](overlay.webp)
+
+**游戏滤镜效果对比**
+
+![游戏滤镜效果对比](filter.webp)
+
 ## 下载与安装
 
 1. 打开 [Releases](https://github.com/Moresyl/PRISM/releases/latest)，下载 `PRISM-Setup-<版本>-x64.exe`。

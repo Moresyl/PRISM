@@ -10,6 +10,20 @@
 
 > This repository only distributes the Windows installer and release notes for PRISM. The source code is not published here.
 
+## Screenshots
+
+**Hardware monitoring**
+
+![Hardware monitoring](inventory.webp)
+
+**In-game overlay settings**
+
+![In-game overlay settings](overlay.webp)
+
+**Game filter comparison**
+
+![Game filter comparison](filter.webp)
+
 ## Download and install
 
 1. Open [Releases](https://github.com/Moresyl/PRISM/releases/latest) and download `PRISM-Setup-<version>-x64.exe`.
