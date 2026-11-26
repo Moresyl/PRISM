@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 下载最新版本
+    url: https://github.com/Moresyl/PRISM/releases/latest
+    about: 请先确认问题在最新版本中仍然存在。
+  - name: 软件许可协议
+    url: https://github.com/Moresyl/PRISM/blob/main/LICENSE.txt
+    about: 查看软件许可协议和数据处理说明。
