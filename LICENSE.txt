@@ -1,0 +1,144 @@
+PRISM
+Copyright (c) 2026 Mores. All rights reserved.
+版权所有 © 2026 Mores。保留所有权利。
+
+This repository distributes only the Windows installer of PRISM; the source code is not included. Installing and using PRISM is subject to the "PRISM Software License Agreement" below, which is identical to the agreement shown by the installer. The Chinese text is the binding version; the English text is a reference translation. Third-party component licenses are listed in THIRD_PARTY_NOTICES.md.
+
+本仓库仅发布 PRISM 的 Windows 安装包，不包含源代码。安装和使用 PRISM 须遵守下文《PRISM 软件许可协议》，其内容与安装程序中显示的协议一致；以中文版本为准，英文为参考译文。第三方组件的许可证见 THIRD_PARTY_NOTICES.md。
+
+------------------------------------------------------------
+
+PRISM Software License Agreement
+(English reference translation. The Chinese original that follows this translation is the binding version.)
+
+Please read this agreement before installing. By ticking "I have read and accept the software license agreement" and continuing the installation, you confirm that you have read and agree to the terms below.
+
+
+1. Scope of the license
+
+The software is provided "as is". You may install, run and uninstall it on your own devices, on any number of devices.
+Without authorization, do not reverse engineer the software, redistribute modified versions, or offer paid services in the software's name.
+
+
+2. What the software does on this computer
+
+PRISM is a game performance and hardware tuning toolkit. In normal use it:
+
+  · reads the models and sensor readings of the CPU, graphics card, motherboard, memory, disks and displays;
+  · adjusts display colors or processes the game image in the selected mode when you enable display adjustment or game filters;
+  · lets the installer check for the PawnIO hardware access driver and install it when the required version is missing.
+    The driver is used to read low-level sensors; Windows may ask for administrator rights during installation;
+  · adjusts Windows power plans, network and game-related system settings for "game optimization";
+  · starts the bundled Intel PresentMon to capture game frame rates.
+
+The parts that change system settings need administrator rights, and the program asks for them when needed.
+Every tuning item states in the interface what it changes and whether it is restored automatically when turned off.
+
+
+3. Data
+
+Filter settings, hardware samples and performance reports are stored on this computer. Checking for a new version connects to the update service;
+if you choose to update, the program downloads the installer.
+When you export a report, you choose where it is saved and whom it is shared with.
+
+
+4. Third-party components
+
+The software contains third-party components. Their licenses and the full mapping of components, versions and sources are installed with the program
+in the ThirdPartyNotices folder; the master list is ThirdPartyNotices\THIRD-PARTY-COMPONENTS.txt.
+
+  · Intel PresentMon — MIT License
+  · LibreHardwareMonitorLib and its hardware access dependencies — MPL-2.0 / Apache-2.0 / MIT
+  · Vortice.Windows, SharpGen — MIT License
+  · .NET / Windows Desktop Runtime and Windows SDK projections — the accompanying Microsoft terms and notices
+
+The sources and license notes for the game preview images are in ThirdPartyNotices\Preview-Scene-Attribution.txt.
+Listing a source does not imply a redistribution grant. Third-party components are provided under their own license terms.
+
+
+5. Disclaimer
+
+The software is provided as is, without any express or implied warranty.
+Tuning features change system settings; enable them only after reading the description shown in the interface.
+To the maximum extent permitted by law, any loss arising from the use of the software is borne by the user.
+
+
+6. Uninstalling
+
+You can uninstall at any time in two ways:
+
+  · find "PRISM" under Settings › Apps › Installed apps and click Uninstall;
+  · or run PRISM Setup again and choose "Uninstall".
+
+Uninstalling removes the program files and the Start menu and desktop shortcuts.
+Your own settings and performance session records are kept in your user folder and are not deleted.
+
+PawnIO is a separately installed driver and is kept after PRISM is uninstalled. If other software also uses the driver, check before uninstalling it separately.
+
+------------------------------------------------------------
+
+PRISM 软件许可协议
+
+安装前请阅读本协议。勾选「我已阅读并接受软件许可协议」并继续安装，表示您已阅读并同意下列条款。
+
+
+一、许可范围
+
+本软件按「现状」提供，供您在自己的设备上安装、运行和卸载，不限台数。
+未经授权，请勿反向工程本软件、二次分发修改版，或以本软件的名义提供付费服务。
+
+
+二、本软件会对这台电脑做什么
+
+PRISM是一套游戏性能与硬件调校工具，正常使用中会涉及以下操作：
+
+  · 读取 CPU、显卡、主板、内存、硬盘、显示器的型号与传感器读数；
+  · 在您启用显示调节或游戏滤镜时，按所选模式调整显示色彩或处理游戏画面；
+  · 安装程序会检查 PawnIO 硬件访问驱动，缺少所需版本时一并安装。
+    此驱动用于读取底层传感器，安装时 Windows 可能请求管理员权限。
+  · 调整 Windows 的电源方案、网络与游戏相关系统设置，用于「游戏优化」；
+  · 启动随附的 Intel PresentMon 采集游戏帧率。
+
+其中修改系统设置的部分需要管理员权限，程序会在需要时向您申请。
+每一项调校在界面上都写明了它改的是什么，以及关闭后是否自动还原。
+
+
+三、数据
+
+滤镜设置、硬件采样和性能报告保存在本机。检查新版本会连接更新服务；
+选择更新后，程序会下载安装包。
+导出报告时，您可以自行选择保存位置及分享对象。
+
+
+四、第三方组件
+
+本软件包含第三方组件，各自的许可证及完整组件/版本/来源对应关系随程序安装在
+ThirdPartyNotices 目录下；总清单为 ThirdPartyNotices\THIRD-PARTY-COMPONENTS.txt。
+
+  · Intel PresentMon —— MIT License
+  · LibreHardwareMonitorLib 及其硬件访问依赖 —— MPL-2.0 / Apache-2.0 / MIT
+  · Vortice.Windows、SharpGen —— MIT License
+  · .NET / Windows Desktop Runtime 与 Windows SDK 投影 —— 随附的 Microsoft 条款及声明
+
+游戏预览素材的来源与许可说明见 ThirdPartyNotices\Preview-Scene-Attribution.txt。
+列明来源不等同于再分发授权。第三方组件依各自许可条款提供。
+
+
+五、免责
+
+本软件按现状提供，不附带任何明示或默示的担保。
+调校类功能会修改系统设置，请在读懂界面上那句说明之后再启用。
+在法律允许的最大范围内，因使用本软件而产生的损失由使用者自行承担。
+
+
+六、卸载
+
+随时可以卸载，有两条路：
+
+  · 「设置 › 应用 › 已安装的应用」里找到「PRISM」，点卸载；
+  · 或者再次运行 PRISM Setup，选择「卸载」。
+
+卸载会移除程序文件、开始菜单与桌面快捷方式。
+您自己的设置和性能会话记录保存在用户目录下，卸载不会删除它们。
+
+PawnIO 是独立安装的驱动，卸载 PRISM 后会保留。如果其他软件也在使用该驱动，请在单独卸载驱动前确认。
