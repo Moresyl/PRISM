@@ -4,6 +4,10 @@
 
 <h1 align="center">PRISM</h1>
 
+<p align="center">
+  <a href="https://apps.microsoft.com/detail/9NS8LV6SWRR2"><img src="./assets/microsoft-store-en.svg" width="220" alt="Get it from Microsoft Store: PRISM" /></a>
+</p>
+
 <p align="center">Game performance and hardware tuning toolkit for Windows. Monitor your hardware, overlay FPS in game, apply game filters and tune your PC from one place.</p>
 
 <p align="center"><b>English</b> | <a href="README.zh-CN.md">简体中文</a></p>
