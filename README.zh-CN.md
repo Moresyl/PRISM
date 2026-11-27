@@ -4,6 +4,10 @@
 
 <h1 align="center">PRISM</h1>
 
+<p align="center">
+  <a href="https://apps.microsoft.com/detail/9NS8LV6SWRR2"><img src="./assets/microsoft-store-zh.svg" width="220" alt="从微软商店下载 PRISM" /></a>
+</p>
+
 <p align="center">Windows 游戏性能与硬件调校工具箱。硬件监控、游戏内帧率浮窗、游戏滤镜和电脑优化，一个软件里完成。</p>
 
 <p align="center"><a href="README.md">English</a> | <b>简体中文</b></p>
